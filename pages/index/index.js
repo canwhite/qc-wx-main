@@ -9,7 +9,7 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
-  goSub(){
+  goSub(){
       wx.navigateTo({
         url: '/qc-wx-sub/pages/index/index',
       })
